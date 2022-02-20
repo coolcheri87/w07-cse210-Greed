@@ -1,21 +1,22 @@
 
+from .gravity import Gravity
 
-
-class Faller(self):
+class Faller:
 
     def __init__(self):
-        self._x=0
-        self._y=0
+        
+        self._height = 0
+        self._gravity = Gravity()
 
-    def getX(self):
-        return self._x
+    def getHeight(self):
+        return self._height
 
-    def getY(self):
-        return self._y
+    def resetHeight(self):
+        self._height = 0
+        return 0
 
-    def setX(self,x):
-        self._x = x
-
-    def setY(self,y):
-        self._y = y
-
+    def fall(self):
+        self._height += self._gravity.getFall()
+        if (self._height > self._maxHeight):
+            self._height = self._maxHeight
+        return self._height

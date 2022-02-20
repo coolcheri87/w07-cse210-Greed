@@ -1,9 +1,12 @@
 
+class Score:
 
-class Score(self):
-    
     def __init__(self):
-        super().__init__()
-        self.impact = -1
-        self.symbol = 'o'
-        self.speed = Speed()
+        self._score = 0
+
+    def getScore(self):
+        return self._score
+    
+    def setImpact(self,impact):
+        self._score += impact
+        return self._score
