@@ -9,21 +9,20 @@
 
 # Greed game written in Python
 1. Written in Python
-2. Greed game is to catch gem to get point and lose point if you got rock.
+2. Greed is game in which the player seeks to gather as many falling gems as possible. The game continues as long as the player wants more to get point and lose point if you got rock.
 3. This is greed game to win a game to catch gem much as you can without touch rock.
 4. Watch out for rock cause if you touch it then you lose a point.
-
-6. If you win this game is to get much as gem you can get.
-7. If you lose this game when it is negative number. 
-8. Keep playing until you get tired of it.
+5. If you win this game is to get much as gem you can get.
+6. If you lose this game when it is negative number. 
+7. Keep playing until you get tired of it.
 # Getting started
 1. Make sure you have Python 3.8.0 or newer installed and running on your machine. 
-2. Open a terminal and browse to the project's root folder. 
-3. Start the program by running the following command.
-4. Python3 Greed game is to catch gem and not to get rock.
+2. You can install Raylib Python CFFi by opening a terminal and running following command. 
+3. After you've installed the required libraries, open a terminal andbrowse to the porject root folder. start the program by running the following command.
+4. Python3 Greed you  game is to catch gem and not to get rock.
 5. You can also run the program from an IDE lile Visual Studio Code. 
 6. Start your IDE and open the project folder. 
-7. Select the main module inside the guess my number folder and click the "run" button. 
+7. Select the main module inside the hunter folder and click the  my number folder and click the "run" button. 
 
 # Project Sturcture
 """
